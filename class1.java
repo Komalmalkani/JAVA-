@@ -6,6 +6,7 @@
 // }
 
 
+// _____________Output In JAVA__________
 
 // public class class1{
 //     public static void main(String args[]){
@@ -21,6 +22,7 @@
 // }
 
 
+// __________Print a pattern_________________
 // public class main{
 //     public static void main(String args[]){
 //         System.out.println("****");
