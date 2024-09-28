@@ -30,12 +30,19 @@ public class class2 {
             char ch = 'a';
             System.out.println(ch);
             boolean var = false;
+            System.out.println( boolean );
             float num = 10.5;
+            System.out.println(float);
             int number = 25;
+            System.out.println(int);
             // long => int with long number
+            long no  =529753454675;
+            System.out.println(long);
+        
+            
             // short => int with short number;
             // double => float with long number;
-            
+
 
 
         }
