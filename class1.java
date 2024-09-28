@@ -1,9 +1,9 @@
 // __________BOILERPLATE CODE_____________
-public class class1{
-    public static void main(String args[]){
-        System.out.print("komal");
-    }
-}
+// public class class1{
+//     public static void main(String args[]){
+//         System.out.print("komal");
+//     }
+// }
 
 
 
