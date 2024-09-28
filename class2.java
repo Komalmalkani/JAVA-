@@ -13,6 +13,10 @@ public class class2 {
             int b = 5;
             System.out.println("a");
             System.out.println(a);
+           a = 50;
+           System.out.println(a);
+           a=b;
+           System.out.println(a);
         }
     }
 
