@@ -135,14 +135,15 @@ public class class1{
     // System.out.println(area);
 
     // 4.----- Area of Rectangle ----------
-    float length = scn.nextFloat();
-    float breadth = scn.nextFloat();
-    float area = length*breadth;
+    // float length = scn.nextFloat();
+    // float breadth = scn.nextFloat();
+    // float area = length*breadth;
+    // System.out.println(area);
+
+    // 4.----- Area of Square ----------
+    int side = scn.nextInt();
+    int area = side*side;
     System.out.println(area);
-
-
-
-
     }
 }
 
