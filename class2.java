@@ -153,7 +153,8 @@ public class class1{
     // 4.----- perimeter of Rectangle ----------
     float length = scn.nextFloat();
     float breadth = scn.nextFloat();
-    float perimeter  = 2 (length+breadth);
+    float perimeter  = 2*(length+breadth);
+    System.out.println(perimeter);
     }
 }
 
