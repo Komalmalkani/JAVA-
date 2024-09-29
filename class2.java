@@ -61,11 +61,49 @@ I am learning java */
 
 
 // --------SUM OF A & B ---------
-public class class2 {
-public static void main(String args[]){
-    int a = 10;
-    int b = 10;
-    int sum = a+b;
-    System.out.println(sum);
-}
+// public class class2 {
+// public static void main(String args[]){
+//     int a = 10;
+//     int b = 10;
+//     int sum = a+b;
+//     System.out.println(sum);
+// }
+// }
+
+
+// ________INPUT IN JAVA_________
+import java.util.*;
+public class class1{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        // String firstName = sc.next();
+        // System.out.println(firstName);
+        // String lastName = sc.next();
+        // System.out.println(lastName);
+        // String fullName = sc.nextLine();
+        // System.out.println(fullName);
+
+        // int num = sc.nextInt();
+        // System.out.println(num);
+
+        // byte no = sc.nextByte();
+        // System.out.println(no);
+
+        // float flt = sc.nextFloat();
+        // System.out.println(flt);
+
+        // double dbl = sc.nextDouble();
+        // System.out.println(dbl);
+
+        // long lg = sc.nextLong();
+        // System.out.println(lg);
+
+        // short st = sc.nextShort();
+        // System.out.println(st);
+
+        // boolean bln = sc.nextBoolean();
+        // System.out.println(bln);
+
+        
+    }
 }
