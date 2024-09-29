@@ -141,9 +141,17 @@ public class class1{
     // System.out.println(area);
 
     // 4.----- Area of Square ----------
-    int side = scn.nextInt();
-    int area = side*side;
-    System.out.println(area);
+    // int side = scn.nextInt();
+    // int area = side*side;
+    // System.out.println(area);
+
+    // 4.----- perimeter of square ----------
+    // int side = scn.nextInt();
+    // int area = 4*side;
+    // System.out.println(area);
+
+
+    
     }
 }
 
