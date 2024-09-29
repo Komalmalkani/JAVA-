@@ -130,9 +130,19 @@ public class class1{
 
     
     // 3.----- Area of Circle ----------
-    float rad = scn.nextFloat();
-    float area = 3.14f * rad *rad ;
+    // float rad = scn.nextFloat();
+    // float area = 3.14f * rad *rad ;
+    // System.out.println(area);
+
+    // 4.----- Area of Rectangle ----------
+    float length = scn.nextFloat();
+    float breadth = scn.nextFloat();
+    float area = length*breadth;
     System.out.println(area);
+
+
+
+
     }
 }
 
