@@ -72,38 +72,65 @@ I am learning java */
 
 
 // ________INPUT IN JAVA_________
-import java.util.*;
+// import java.util.*;
+// public class class1{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         // String firstName = sc.next();
+//         // System.out.println(firstName);
+//         // String lastName = sc.next();
+//         // System.out.println(lastName);
+//         // String fullName = sc.nextLine();
+//         // System.out.println(fullName);
+
+//         // int num = sc.nextInt();
+//         // System.out.println(num);
+
+//         // byte no = sc.nextByte();
+//         // System.out.println(no);
+
+//         // float flt = sc.nextFloat();
+//         // System.out.println(flt);
+
+//         // double dbl = sc.nextDouble();
+//         // System.out.println(dbl);
+
+//         // long lg = sc.nextLong();
+//         // System.out.println(lg);
+
+//         // short st = sc.nextShort();
+//         // System.out.println(st);
+
+//         // boolean bln = sc.nextBoolean();
+//         // System.out.println(bln);
+//     }
+// }
+
+// ------QUESTION PRACTICE ON THE CONCEPT -> INPUTS IN JAVA------
+
+import java.util.Scanner;
+
 public class class1{
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        // String firstName = sc.next();
-        // System.out.println(firstName);
-        // String lastName = sc.next();
-        // System.out.println(lastName);
-        // String fullName = sc.nextLine();
-        // System.out.println(fullName);
+    // 1.----- sum of a & b----------
+    Scanner scn = new Scanner(System.in);
+    // int a = scn.nextInt();
+    // // System.out.println(a);
+    // int b = scn.nextInt();
+    // // System.out.println(b);
+    // int sum = a+b;
+    // System.out.println(sum);
 
-        // int num = sc.nextInt();
-        // System.out.println(num);
 
-        // byte no = sc.nextByte();
-        // System.out.println(no);
+    // 2.----- Product of a & b ----------
+    // int a = scn.nextInt();
+    // int b = scn.nextInt();
+    // int product = a * b;
+    // System.out.println(product);
 
-        // float flt = sc.nextFloat();
-        // System.out.println(flt);
-
-        // double dbl = sc.nextDouble();
-        // System.out.println(dbl);
-
-        // long lg = sc.nextLong();
-        // System.out.println(lg);
-
-        // short st = sc.nextShort();
-        // System.out.println(st);
-
-        // boolean bln = sc.nextBoolean();
-        // System.out.println(bln);
-
-        
+    
+    // 3.----- Area of Circle ----------
+    
     }
 }
+
