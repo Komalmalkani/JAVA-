@@ -150,8 +150,10 @@ public class class1{
     // int area = 4*side;
     // System.out.println(area);
 
-
-    
+    // 4.----- perimeter of Rectangle ----------
+    float length = scn.nextFloat();
+    float breadth = scn.nextFloat();
+    float perimeter  = 2 (length+breadth);
     }
 }
 
