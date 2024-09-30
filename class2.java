@@ -84,6 +84,7 @@ I am learning java */
 // nextline
 // nextInt
 // nextByte
+// nextFloat
 
 
 
