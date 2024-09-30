@@ -81,6 +81,8 @@ I am learning java */
 
 // INPUT IN JAVA
 //  next
+// nextline
+
 
 
 
