@@ -35,6 +35,11 @@
 // -double
 
 // NON-PRIMITIVE
+// String 
+// Array
+// Class
+// Object
+// Interface
 
 // public class class2 {
 //         public static void main(String args[]){
@@ -71,6 +76,13 @@
 THERE,
 HOW ARE UH?
 I am learning java */
+
+
+
+// INPUT IN JAVA
+
+
+
 
 
 // --------SUM OF A & B ---------
