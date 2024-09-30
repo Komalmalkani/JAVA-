@@ -22,6 +22,19 @@
 
 
 // ____________Data Types In Java__________
+// -----PRIMITIVE AND NON-PRIMITIVE--------
+
+// PRIMITIVE
+// -byte
+// -short
+// -char
+// -boolean
+// -int
+// -long
+// -float
+// -double
+
+NON-PRIMITIVE
 
 // public class class2 {
 //         public static void main(String args[]){
@@ -108,53 +121,53 @@ I am learning java */
 
 // ------QUESTION PRACTICE ON THE CONCEPT -> INPUTS IN JAVA------
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class class1{
-    public static void main(String args[]){
-    // 1.----- sum of a & b----------
-    Scanner scn = new Scanner(System.in);
-    // int a = scn.nextInt();
-    // // System.out.println(a);
-    // int b = scn.nextInt();
-    // // System.out.println(b);
-    // int sum = a+b;
-    // System.out.println(sum);
+// public class class1{
+//     public static void main(String args[]){
+//     // 1.----- sum of a & b----------
+//     Scanner scn = new Scanner(System.in);
+//     // int a = scn.nextInt();
+//     // // System.out.println(a);
+//     // int b = scn.nextInt();
+//     // // System.out.println(b);
+//     // int sum = a+b;
+//     // System.out.println(sum);
 
 
-    // 2.----- Product of a & b ----------
-    // int a = scn.nextInt();
-    // int b = scn.nextInt();
-    // int product = a * b;
-    // System.out.println(product);
+//     // 2.----- Product of a & b ----------
+//     // int a = scn.nextInt();
+//     // int b = scn.nextInt();
+//     // int product = a * b;
+//     // System.out.println(product);
 
     
-    // 3.----- Area of Circle ----------
-    // float rad = scn.nextFloat();
-    // float area = 3.14f * rad *rad ;
-    // System.out.println(area);
+//     // 3.----- Area of Circle ----------
+//     // float rad = scn.nextFloat();
+//     // float area = 3.14f * rad *rad ;
+//     // System.out.println(area);
 
-    // 4.----- Area of Rectangle ----------
-    // float length = scn.nextFloat();
-    // float breadth = scn.nextFloat();
-    // float area = length*breadth;
-    // System.out.println(area);
+//     // 4.----- Area of Rectangle ----------
+//     // float length = scn.nextFloat();
+//     // float breadth = scn.nextFloat();
+//     // float area = length*breadth;
+//     // System.out.println(area);
 
-    // 4.----- Area of Square ----------
-    // int side = scn.nextInt();
-    // int area = side*side;
-    // System.out.println(area);
+//     // 4.----- Area of Square ----------
+//     // int side = scn.nextInt();
+//     // int area = side*side;
+//     // System.out.println(area);
 
-    // 4.----- perimeter of square ----------
-    // int side = scn.nextInt();
-    // int area = 4*side;
-    // System.out.println(area);
+//     // 4.----- perimeter of square ----------
+//     // int side = scn.nextInt();
+//     // int area = 4*side;
+//     // System.out.println(area);
 
-    // 4.----- perimeter of Rectangle ----------
-    float length = scn.nextFloat();
-    float breadth = scn.nextFloat();
-    float perimeter  = 2*(length+breadth);
-    System.out.println(perimeter);
-    }
-}
+//     // 4.----- perimeter of Rectangle ----------
+//     // float length = scn.nextFloat();
+//     // float breadth = scn.nextFloat();
+//     // float perimeter  = 2*(length+breadth);
+//     // System.out.println(perimeter);
+//     }
+// }
 
