@@ -88,6 +88,7 @@ I am learning java */
 // nextDouble
 // nextBoolean
 // nextShort
+nextLong
 
 
 
