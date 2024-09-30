@@ -86,7 +86,7 @@ I am learning java */
 // nextByte
 // nextFloat
 // nextDouble
-nextBoolean
+// nextBoolean
 
 
 
