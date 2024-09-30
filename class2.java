@@ -34,7 +34,7 @@
 // -float
 // -double
 
-NON-PRIMITIVE
+// NON-PRIMITIVE
 
 // public class class2 {
 //         public static void main(String args[]){
