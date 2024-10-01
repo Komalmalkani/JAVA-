@@ -240,9 +240,21 @@ public class class2{
         // System.out.println(number5);
 
          // ____________TYPE-PROMOTION_____________
-         char a = 'a';
-         char b = 'b';
-         System.out.println((int)(b));
-         System.out.printlnn((int)(a));
+        //  1.
+        //  char a = 'a';
+        //  char b = 'b';
+        //  char c = b-a;//this will give err on executing it
+        //  System.out.println((int)(b));
+        //  System.out.println((int)(a));
+        //  System.out.println(a);
+        //  System.out.println(b-a);
+
+
+        // 2.
+        short a = 5;
+        byte b = 25;
+        char c = 'c';
+        byte bt = (byte)(a+b+c);
+        System.out.println(bt);
     }
 }
