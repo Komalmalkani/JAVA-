@@ -288,6 +288,7 @@ I am learning java */
 
 public class class2{
     public static void main(String args[]){
+        // *-----ARITHMETIC OPERATOR------*
         // int a = 5;
         // int b = 5;
         // System.out.println("Addition of a and b is " + (a+b) );
