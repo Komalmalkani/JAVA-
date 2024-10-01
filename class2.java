@@ -275,16 +275,26 @@ I am learning java */
 
 
 // __________________OPERATORS IN JAVA____________________
+// Symbols that tell compiler to perform some operation
+
+// ___TYPES OF OPERATOR____
+// -Arithmetic Operator
+// -Relational Operator
+// -Logical Operator
+// -Bitwise Operator
+// -Assignment Operator
+
+
 
 public class class2{
     public static void main(String args[]){
-        int a = 5;
-        int b = 5;
-        System.out.println("Addition of a and b is " + (a+b) );
-        System.out.println("Subtraction of a and b is " + (a-b) );
-        System.out.println("Multiplication of a and b is " + (a*b) );
-        System.out.println("Division of a and b is " + (a/b) );
-        System.out.println("Modulo of a and b is " + (a%b) );
+        // int a = 5;
+        // int b = 5;
+        // System.out.println("Addition of a and b is " + (a+b) );
+        // System.out.println("Subtraction of a and b is " + (a-b) );
+        // System.out.println("Multiplication of a and b is " + (a*b) );
+        // System.out.println("Division of a and b is " + (a/b) );
+        // System.out.println("Modulo of a and b is " + (a%b) );
     }
 }
 
