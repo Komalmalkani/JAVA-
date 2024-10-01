@@ -206,12 +206,17 @@ public class class2{
 
             
               // ____________TYPE-CASTING_____________
-              Scanner sc = new Scanner(System.in);
-              float a = 25.999f;
-              int b = a;
-              System.out.println(b);
+            //   1
+            //   Scanner sc = new Scanner(System.in);
+            //   float a = 25.999f;
+            //   int b = (int)a;
+            //   System.out.println(b);
 
-
+            //  2
+            Scanner sc = new Scanner(System.in);
+            float marks = 90.98f;
+            int mark= (int)marks;
+            System.out.println(mark);
 
     }
 }
