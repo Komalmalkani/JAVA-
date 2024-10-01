@@ -184,91 +184,109 @@ I am learning java */
 //     }
 // }
 
-import java.util.*;
+// import java.util.*;
+
+// public class class2{
+//     public static void main(String args[]){
+//           // ___________TYPE-CONVERSION_______________
+
+//         // int a = 25;
+//         // long b = a;
+
+//         // long a = 25;
+//         // int b = a;
+//         // System.out.println(b);
+
+//         // Example
+
+//             // Scanner sc = new Scanner(System.in);
+//             // int number = sc.nextFloat();
+//             // float number = sc.nextInt();
+//             // System.out.println(number);
+
+            
+//               // ____________TYPE-CASTING_____________
+//             //   1
+//             //   Scanner sc = new Scanner(System.in);
+//             //   float a = 25.999f;
+//             //   int b = (int)a;
+//             //   System.out.println(b);
+
+//             //  2
+//             // Scanner sc = new Scanner(System.in);
+//             // float marks = 90.98f;
+//             // int mark= (int)marks;
+//             // System.out.println(mark);
+
+//         //   3
+//         // Scanner sc = new Scanner(System.in);
+//         // char ch = 'a';
+//         // char ch1 = 'b';
+//         // char ch2 = 'c';
+//         // char ch3 = 'A';
+//         // char ch4 = 'Z';
+//         // char ch5 = 'Y';
+//         // int number = ch;
+//         // int number1 = ch1;
+//         // int number2 = ch2;
+//         // int number3 = ch3;
+//         // int number4 = ch4;
+//         // int number5 = ch5;
+//         // System.out.println(number);
+//         // System.out.println(number1);
+//         // System.out.println(number2);
+//         // System.out.println(number3);
+//         // System.out.println(number4)  ;
+//         // System.out.println(number5);
+
+//          // ____________TYPE-PROMOTION_____________
+//         //  1.
+//         //  char a = 'a';
+//         //  char b = 'b';
+//         //  char c = b-a;//this will give err on executing it
+//         //  System.out.println((int)(b));
+//         //  System.out.println((int)(a));
+//         //  System.out.println(a);
+//         //  System.out.println(b-a);
+
+
+//         // 2.
+//         // short a = 5;
+//         // byte b = 25;
+//         // char c = 'c';
+//         // byte bt = (byte)(a+b+c);
+//         // System.out.println(bt);
+
+//         // 3.
+//         // int a = 10;
+//         // float b = 2.5f;
+//         // long c = 25;
+//         // double d = 30;
+//         // double ans = a + b + c + d;
+//         // System.out.println(ans);
+
+//         // 4.
+//         // byte a = 5;
+//         // byte b = (byte)(a*2);
+//         // System.out.println(b);
+
+//     }
+// }
+
+
+// __________________OPERATORS IN JAVA____________________
 
 public class class2{
     public static void main(String args[]){
-          // ___________TYPE-CONVERSION_______________
-
-        // int a = 25;
-        // long b = a;
-
-        // long a = 25;
-        // int b = a;
-        // System.out.println(b);
-
-        // Example
-
-            // Scanner sc = new Scanner(System.in);
-            // int number = sc.nextFloat();
-            // float number = sc.nextInt();
-            // System.out.println(number);
-
-            
-              // ____________TYPE-CASTING_____________
-            //   1
-            //   Scanner sc = new Scanner(System.in);
-            //   float a = 25.999f;
-            //   int b = (int)a;
-            //   System.out.println(b);
-
-            //  2
-            // Scanner sc = new Scanner(System.in);
-            // float marks = 90.98f;
-            // int mark= (int)marks;
-            // System.out.println(mark);
-
-        //   3
-        // Scanner sc = new Scanner(System.in);
-        // char ch = 'a';
-        // char ch1 = 'b';
-        // char ch2 = 'c';
-        // char ch3 = 'A';
-        // char ch4 = 'Z';
-        // char ch5 = 'Y';
-        // int number = ch;
-        // int number1 = ch1;
-        // int number2 = ch2;
-        // int number3 = ch3;
-        // int number4 = ch4;
-        // int number5 = ch5;
-        // System.out.println(number);
-        // System.out.println(number1);
-        // System.out.println(number2);
-        // System.out.println(number3);
-        // System.out.println(number4)  ;
-        // System.out.println(number5);
-
-         // ____________TYPE-PROMOTION_____________
-        //  1.
-        //  char a = 'a';
-        //  char b = 'b';
-        //  char c = b-a;//this will give err on executing it
-        //  System.out.println((int)(b));
-        //  System.out.println((int)(a));
-        //  System.out.println(a);
-        //  System.out.println(b-a);
-
-
-        // 2.
-        // short a = 5;
-        // byte b = 25;
-        // char c = 'c';
-        // byte bt = (byte)(a+b+c);
-        // System.out.println(bt);
-
-        // 3.
-        // int a = 10;
-        // float b = 2.5f;
-        // long c = 25;
-        // double d = 30;
-        // double ans = a + b + c + d;
-        // System.out.println(ans);
-
-        // 4.
-        // byte a = 5;
-        // byte b = (byte)(a*2);
-        // System.out.println(b);
-
+        int a = 5;
+        int b = 5;
+        System.out.println("Addition of a and b is " + (a+b) );
+        System.out.println("Subtraction of a and b is " + (a-b) );
+        System.out.println("Multiplication of a and b is " + (a*b) );
+        System.out.println("Division of a and b is " + (a/b) );
+        System.out.println("Modulo of a and b is " + (a%b) );
     }
 }
+
+
+
