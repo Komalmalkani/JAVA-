@@ -251,10 +251,24 @@ public class class2{
 
 
         // 2.
-        short a = 5;
-        byte b = 25;
-        char c = 'c';
-        byte bt = (byte)(a+b+c);
-        System.out.println(bt);
+        // short a = 5;
+        // byte b = 25;
+        // char c = 'c';
+        // byte bt = (byte)(a+b+c);
+        // System.out.println(bt);
+
+        // 3.
+        // int a = 10;
+        // float b = 2.5f;
+        // long c = 25;
+        // double d = 30;
+        // double ans = a + b + c + d;
+        // System.out.println(ans);
+
+        // 4.
+        // byte a = 5;
+        // byte b = (byte)(a*2);
+        // System.out.println(b);
+
     }
 }
