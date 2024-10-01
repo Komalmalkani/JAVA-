@@ -77,22 +77,6 @@ THERE,
 HOW ARE UH?
 I am learning java */
 
-
-
-// INPUT IN JAVA
-//  next
-// nextline
-// nextInt
-// nextByte
-// nextFloat
-// nextDouble
-// nextBoolean
-// nextShort
-nextLong
-
-
-
-
 // --------SUM OF A & B ---------
 // public class class2 {
 // public static void main(String args[]){
@@ -103,8 +87,17 @@ nextLong
 // }
 // }
 
+// INPUT IN JAVA
+//  next
+// nextline
+// nextInt
+// nextByte
+// nextFloat
+// nextDouble
+// nextBoolean
+// nextShort
+// nextLong
 
-// ________INPUT IN JAVA_________
 // import java.util.*;
 // public class class1{
 //     public static void main(String args[]){
@@ -191,3 +184,34 @@ nextLong
 //     }
 // }
 
+import java.util.*;
+
+public class class2{
+    public static void main(String args[]){
+          // ___________TYPE-CONVERSION_______________
+
+        // int a = 25;
+        // long b = a;
+
+        // long a = 25;
+        // int b = a;
+        // System.out.println(b);
+
+        // Example
+
+            // Scanner sc = new Scanner(System.in);
+            // int number = sc.nextFloat();
+            // float number = sc.nextInt();
+            // System.out.println(number);
+
+
+            // ____________TYPE-CASTING_____________
+            Scanner sc = new Scanner(System.in);
+            float a = 25.999f;
+            int b = a;
+            
+
+
+
+    }
+}
