@@ -204,12 +204,12 @@ public class class2{
             // float number = sc.nextInt();
             // System.out.println(number);
 
-
-            // ____________TYPE-CASTING_____________
-            Scanner sc = new Scanner(System.in);
-            float a = 25.999f;
-            int b = a;
             
+              // ____________TYPE-CASTING_____________
+              Scanner sc = new Scanner(System.in);
+              float a = 25.999f;
+              int b = a;
+              System.out.println(b);
 
 
 
