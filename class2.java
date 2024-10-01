@@ -219,24 +219,30 @@ public class class2{
             // System.out.println(mark);
 
         //   3
-        Scanner sc = new Scanner(System.in);
-        char ch = 'a';
-        char ch1 = 'b';
-        char ch2 = 'c';
-        char ch3 = 'A';
-        char ch4 = 'Z';
-        char ch5 = 'Y';
-        int number = ch;
-        int number1 = ch1;
-        int number2 = ch2;
-        int number3 = ch3;
-        int number4 = ch4;
-        int number5 = ch5;
-        System.out.println(number);
-        System.out.println(number1);
-        System.out.println(number2);
-        System.out.println(number3);
-        System.out.println(number4);
-        System.out.println(number5);
+        // Scanner sc = new Scanner(System.in);
+        // char ch = 'a';
+        // char ch1 = 'b';
+        // char ch2 = 'c';
+        // char ch3 = 'A';
+        // char ch4 = 'Z';
+        // char ch5 = 'Y';
+        // int number = ch;
+        // int number1 = ch1;
+        // int number2 = ch2;
+        // int number3 = ch3;
+        // int number4 = ch4;
+        // int number5 = ch5;
+        // System.out.println(number);
+        // System.out.println(number1);
+        // System.out.println(number2);
+        // System.out.println(number3);
+        // System.out.println(number4)  ;
+        // System.out.println(number5);
+
+         // ____________TYPE-PROMOTION_____________
+         char a = 'a';
+         char b = 'b';
+         System.out.println((int)(b));
+         System.out.printlnn((int)(a));
     }
 }
