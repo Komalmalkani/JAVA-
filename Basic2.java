@@ -286,7 +286,7 @@ I am learning java */
 
 
 
-public class class2{
+public class Basic2{
     public static void main(String args[]){
         // *-----ARITHMETIC OPERATOR------*
         // int a = 5;
