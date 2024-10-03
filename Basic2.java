@@ -484,35 +484,43 @@ public class Basic2{
 
 
         // ----------MAKING CALCULATOR USING SWITCH-----------------
-        int a = sc.nextInt();
-        System.out.println(" value of a = "+a);
-        int b = sc.nextInt();
-        System.out.println(" value of b = "+b);
+        // int a = sc.nextInt();
+        // System.out.println(" value of a = "+a);
+        // int b = sc.nextInt();
+        // System.out.println(" value of b = "+b);
 
-        char operator = sc.next().charAt(0);
-        System.out.println("operator is " + operator);
+        // char operator = sc.next().charAt(0);
+        // System.out.println("operator is " + operator);
 
-        switch (operator) {
-            case '+' :
-                System.out.println(a + b);
-                break;
-            case '-' :
-                System.out.println(a - b);
-                break;
-            case '*' :
-                System.out.println(a * b);
-                break;
-            case '/' :
-                System.out.println(a / b);
-                break;
-            case '%' :
-                System.out.println(a % b);
-                break;
+        // switch (operator) {
+        //     case '+' :
+        //         System.out.println(a + b);
+        //         break;
+        //     case '-' :
+        //         System.out.println(a - b);
+        //         break;
+        //     case '*' :
+        //         System.out.println(a * b);
+        //         break;
+        //     case '/' :
+        //         System.out.println(a / b);
+        //         break;
+        //     case '%' :
+        //         System.out.println(a % b);
+        //         break;
         
-            default:
-                break;
-        }
+        //     default:
+        //         break;
+        // }
+
+
+
+        // ----------------------LOOPS--------------------------------
+        // for loop 
+        // while loop
+        // Do while loop
     }
+
 }
 
 
