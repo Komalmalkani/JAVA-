@@ -20,7 +20,6 @@
 //         }
 //     }
 
-
 // ____________Data Types In Java__________
 // -----PRIMITIVE AND NON-PRIMITIVE--------
 
@@ -56,15 +55,13 @@
 //             // long => int with long number
 //             long no  = 753454675;
 //             System.out.println(no);
-        
-            
+
 //             // short => int with short number;
 //             short sht = 28;
 //             System.out.println(sht);
 //             // double => float with long number;
 //         }
 //     }
-
 
 // ____________COMMENTS IN JAVA_____________
 // ----single-line------
@@ -147,14 +144,12 @@ I am learning java */
 //     // int sum = a+b;
 //     // System.out.println(sum);
 
-
 //     // 2.----- Product of a & b ----------
 //     // int a = scn.nextInt();
 //     // int b = scn.nextInt();
 //     // int product = a * b;
 //     // System.out.println(product);
 
-    
 //     // 3.----- Area of Circle ----------
 //     // float rad = scn.nextFloat();
 //     // float area = 3.14f * rad *rad ;
@@ -204,7 +199,6 @@ I am learning java */
 //             // float number = sc.nextInt();
 //             // System.out.println(number);
 
-            
 //               // ____________TYPE-CASTING_____________
 //             //   1
 //             //   Scanner sc = new Scanner(System.in);
@@ -249,7 +243,6 @@ I am learning java */
 //         //  System.out.println(a);
 //         //  System.out.println(b-a);
 
-
 //         // 2.
 //         // short a = 5;
 //         // byte b = 25;
@@ -273,7 +266,6 @@ I am learning java */
 //     }
 // }
 
-
 // __________________OPERATORS IN JAVA____________________
 // Symbols that tell compiler to perform some operation
 
@@ -286,8 +278,8 @@ I am learning java */
 
 import java.util.*;
 
-public class Basic2{
-    public static void main(String args[]){
+public class Basic2 {
+    public static void main(String args[]) {
         // *-----ARITHMETIC OPERATOR------*
         // int a = 5;
         // int b = 5;
@@ -317,8 +309,8 @@ public class Basic2{
         // System.out.println(f);
 
         // _____POST-DECREMENT_____
-        // int  g = 10;
-        // int  h = g--;
+        // int g = 10;
+        // int h = g--;
         // System.out.println(g);
         // System.out.println(h);
 
@@ -359,129 +351,119 @@ public class Basic2{
         // System.out.println(b);
         // System.out.println(b*=5);
 
-
-
         // ______________CONDITIONAL STATEMENTS________________
-            // if else
-            // else if
-            // ternary opertator
-            // switch
+        // if else
+        // else if
+        // ternary opertator
+        // switch
 
-            // -------IF - ELSE ------------------
+        // -------IF - ELSE ------------------
 
-            // int age = 2;
-            // if (age >= 18) {
-            //     System.out.println("Adult");
-            // }else{
-            //     System.out.println("Not Adult");
-            // }
+        // int age = 2;
+        // if (age >= 18) {
+        // System.out.println("Adult");
+        // }else{
+        // System.out.println("Not Adult");
+        // }
 
+        Scanner sc = new Scanner(System.in);
 
-            Scanner sc = new Scanner(System.in);
+        // int age = sc.nextInt();
+        // if ((age <= 12)) {
+        // System.out.println("Preteens");
+        // }
+        // else if ((age >= 13)&& (age <=18)) {
+        // System.out.println("Teenager");
+        // }else {
+        // System.out.print("Adult");
+        // }
 
-            // int age = sc.nextInt();
-            // if ((age <= 12)) {
-            //     System.out.println("Preteens");
-            // }
-            // else if ((age >= 13)&& (age <=18)) {
-            //     System.out.println("Teenager");
-            // }else {
-            //     System.out.print("Adult");
-            // }
+        // int A = sc.nextInt();
+        // int B = sc.nextInt();
 
+        // if(A>B){
+        // System.out.println("A is greater than B");
+        // }else{
+        // System.out.println("B is greater than A");
+        // }
 
-            // int A = sc.nextInt();
-            // int B = sc.nextInt();
+        // if ((A%2==0)) {
+        // System.out.println("A is even number");
+        // } else {
+        // System.out.println("B is odd number");
+        // }
 
-            // if(A>B){
-            //     System.out.println("A is greater than B");
-            // }else{
-            //     System.out.println("B is greater than A");
-            // }
+        // ----INCOME -TAX -CALCULATOR------
+        // int income = sc.nextInt();
+        // if (income < 500000) {
+        // System.out.println("0% TAX");
+        // } else if((income > 500000)&&( income < 10000000)){
+        // System.out.println("TAX will be " +(int)(income*0.2));
+        // }
+        // else{
+        // System.out.println("TAX will be " + (int)(income*0.3));
+        // }
 
-            
-            // if ((A%2==0)) {
-            //     System.out.println("A is even number");
-            // } else {
-            //     System.out.println("B is odd number");
-            // }
+        // ----PRINT THE LARGEST OF 3 ----
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // int c = sc.nextInt();
+        // if ((a>b)&& (a>c)) {
+        // System.out.println("A is greater than b and c");
+        // } else if((b>c)&& (b>c)) {
+        // System.out.println("B is greater than a and c");
+        // }else{
+        // System.out.println("C is greater than a and b");
+        // }
 
-            // ----INCOME -TAX -CALCULATOR------
-            // int income = sc.nextInt();
-            // if (income < 500000) {
-            //     System.out.println("0% TAX");
-            // } else if((income > 500000)&&( income < 10000000)){
-            //     System.out.println("TAX will be " +(int)(income*0.2));
-            // }
-            // else{
-            //     System.out.println("TAX will be " + (int)(income*0.3));
-            // }
+        // ----PRINT THE LARGEST AMONG THESE 3 NUMBERS ----
+        // int A = 1, B = 2, C = 4;
+        // if ((A>=B)&& (A>=B)) {
+        // System.out.println("A is greater");
+        // } else if(B>=C) {
+        // System.out.println("B is greater");
+        // }else{
+        // System.out.println("C is greater");
+        // }
 
-            // ----PRINT THE LARGEST OF 3 ----
-            // int a = sc.nextInt();
-            // int b = sc.nextInt();
-            // int c = sc.nextInt();
-            // if ((a>b)&& (a>c)) {
-            //     System.out.println("A is greater than b and c");
-            // } else if((b>c)&& (b>c)) {
-            //     System.out.println("B is greater than a and c");
-            // }else{
-            //     System.out.println("C is greater than a and b");
-            // }
-        
-            // ----PRINT THE LARGEST AMONG THESE 3 NUMBERS ----
-            // int A = 1, B = 2, C = 4;
-            // if ((A>=B)&& (A>=B)) {
-            //     System.out.println("A is greater");
-            // } else if(B>=C) {
-            //     System.out.println("B is greater");
-            // }else{
-            //     System.out.println("C is greater");
-            // }
+        // ------TERANARY OPERATOR-----
+        // Variable = Condition ? statement1 : statement2;
 
-            // ------TERANARY OPERATOR-----
-            // Variable =  Condition ? statement1 : statement2;
+        // int number = 4;
+        // String type = ((number%2==0)?"even":"odd");
+        // System.out.print(type);
 
-            // int number = 4;
-            // String type = ((number%2==0)?"even":"odd");
-            // System.out.print(type);
+        // int marks = sc.nextInt();
+        // String condition =( (marks>=33)? "PASS" : "FAIL");
+        // System.out.println(condition);
 
-            // int marks = sc.nextInt();
-            // String condition =( (marks>=33)? "PASS" : "FAIL");
-            // System.out.println(condition);
+        // -------SWITCH STATEMENTS------------
+        // int number = 3 ;
+        // switch(number){
+        // case 1 : System.out.println("burger");
+        // break;
+        // case 2 : System.out.println("Sandwich");
+        // break;
+        // case 3 : System.out.println("chocolate");
+        // break;
+        // case 4 : System.out.println("Ram laddu");
+        // break;
+        // case 5 : System.out.println("Momo");
+        // break;
 
-
-            // -------SWITCH STATEMENTS------------
-            // int number = 3 ; 
-            // switch(number){
-            //     case 1 : System.out.println("burger");
-            //               break;
-            //     case 2 : System.out.println("Sandwich");
-            //               break;
-            //     case 3 : System.out.println("chocolate");
-            //               break;
-            //     case 4 : System.out.println("Ram laddu");
-            //               break;
-            //     case 5 : System.out.println("Momo");
-            //               break;
-
-
-
-        //    char ch = 'e' ; 
-        //     switch(ch){
-        //         case 'a' : System.out.println("burger");
-        //                   break;
-        //         case 'b' : System.out.println("Sandwich");
-        //                   break;
-        //         case 'c' : System.out.println("chocolate");
-        //                   break;
-        //         case 'd' : System.out.println("Ram laddu");
-        //                   break;
-        //         case 'e' : System.out.println("Momo");
-        //                   break;
-            // }
-
-
+        // char ch = 'e' ;
+        // switch(ch){
+        // case 'a' : System.out.println("burger");
+        // break;
+        // case 'b' : System.out.println("Sandwich");
+        // break;
+        // case 'c' : System.out.println("chocolate");
+        // break;
+        // case 'd' : System.out.println("Ram laddu");
+        // break;
+        // case 'e' : System.out.println("Momo");
+        // break;
+        // }
 
         // ----------MAKING CALCULATOR USING SWITCH-----------------
         // int a = sc.nextInt();
@@ -493,35 +475,76 @@ public class Basic2{
         // System.out.println("operator is " + operator);
 
         // switch (operator) {
-        //     case '+' :
-        //         System.out.println(a + b);
-        //         break;
-        //     case '-' :
-        //         System.out.println(a - b);
-        //         break;
-        //     case '*' :
-        //         System.out.println(a * b);
-        //         break;
-        //     case '/' :
-        //         System.out.println(a / b);
-        //         break;
-        //     case '%' :
-        //         System.out.println(a % b);
-        //         break;
-        
-        //     default:
-        //         break;
+        // case '+' :
+        // System.out.println(a + b);
+        // break;
+        // case '-' :
+        // System.out.println(a - b);
+        // break;
+        // case '*' :
+        // System.out.println(a * b);
+        // break;
+        // case '/' :
+        // System.out.println(a / b);
+        // break;
+        // case '%' :
+        // System.out.println(a % b);
+        // break;
+
+        // default:
+        // break;
+        // }
+
+        // ----------------------LOOPS--------------------------------
+        // while loop
+        // for loop
+        // Do while loop
+
+
+        // _________________WHILE LOOPS______________
+        // while(condition){
+        // //do something
+        // }
+
+        // int i=0;
+        // while(i<=500){
+        // System.out.println("Komal Malkani");
+        // i++;
+        // }
+
+        // PRINT NO. IN A SINGLE LINE
+        // int i=1;
+        // while(i<=10){
+        // System.out.print(i+" " );
+        // i++;
+        // }
+        // System.out.println("");
+
+        // PRINT 1 TO N NUMBER WHERE N=7;
+        // int i = 1;
+        // int n = sc.nextInt();
+        // while (i<=n) {
+        // System.out.print(i + " ");
+        // i++;
+        // }
+
+        // System.out.println("Enter value of n");
+        // int n = sc.nextInt();
+        // int num = 1;
+        // int sum = 0;
+        // while (num <= n) {
+        //     sum += num;
+        //     num++;
+        //     System.out.println(sum);
+        // }
+
+        // _________________FOR LOOPS______________
+        // for(initialisation,condition,updation){
+        //     //do something
         // }
 
 
 
-        // ----------------------LOOPS--------------------------------
-        // for loop 
-        // while loop
-        // Do while loop
     }
 
 }
-
-
-
