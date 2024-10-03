@@ -417,6 +417,18 @@ public class Basic2{
             //     System.out.println("TAX will be " + (int)(income*0.3));
             // }
 
+            // ----PRINT THE LARGEST OF 3 ----
+            // int a = sc.nextInt();
+            // int b = sc.nextInt();
+            // int c = sc.nextInt();
+            // if ((a>b)&& (a>c)) {
+            //     System.out.println("A is greater than b and c");
+            // } else if((b>c)&& (b>c)) {
+            //     System.out.println("B is greater than a and c");
+            // }else{
+            //     System.out.println("C is greater than a and b");
+            // }
+        
 
     }
 }
