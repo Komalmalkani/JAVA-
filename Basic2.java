@@ -284,7 +284,7 @@ I am learning java */
 // -Bitwise Operator
 // -Assignment Operator
 
-
+import java.util.*;
 
 public class Basic2{
     public static void main(String args[]){
@@ -349,6 +349,75 @@ public class Basic2{
         // int B = 10;
         // int C = 1;
         // System.out.println(!(A==B)&&(C<=A));
+
+        // *-----ASSIGNMENT OPERATOR------*
+        // int a = 5;
+        // int b = 4;
+        // System.out.println((a=b));
+        // System.out.println(a+=1);
+        // System.out.println(a);
+        // System.out.println(b);
+        // System.out.println(b*=5);
+
+
+
+        // ______________CONDITIONAL STATEMENTS________________
+            // if else
+            // else if
+            // ternary opertator
+            // switch
+
+            // -------IF - ELSE ------------------
+
+            // int age = 2;
+            // if (age >= 18) {
+            //     System.out.println("Adult");
+            // }else{
+            //     System.out.println("Not Adult");
+            // }
+
+
+            Scanner sc = new Scanner(System.in);
+
+            // int age = sc.nextInt();
+            // if ((age <= 12)) {
+            //     System.out.println("Preteens");
+            // }
+            // else if ((age >= 13)&& (age <=18)) {
+            //     System.out.println("Teenager");
+            // }else {
+            //     System.out.print("Adult");
+            // }
+
+
+            // int A = sc.nextInt();
+            // int B = sc.nextInt();
+
+            // if(A>B){
+            //     System.out.println("A is greater than B");
+            // }else{
+            //     System.out.println("B is greater than A");
+            // }
+
+            
+            // if ((A%2==0)) {
+            //     System.out.println("A is even number");
+            // } else {
+            //     System.out.println("B is odd number");
+            // }
+
+            // ----INCOME -TAX -CALCULATOR------
+            // int income = sc.nextInt();
+            // if (income < 500000) {
+            //     System.out.println("0% TAX");
+            // } else if((income > 500000)&&( income < 10000000)){
+            //     System.out.println("TAX will be " +(int)(income*0.2));
+            // }
+            // else{
+            //     System.out.println("TAX will be " + (int)(income*0.3));
+            // }
+
+
     }
 }
 
