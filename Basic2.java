@@ -296,6 +296,31 @@ public class Basic2{
         // System.out.println("Multiplication of a and b is " + (a*b) );
         // System.out.println("Division of a and b is " + (a/b) );
         // System.out.println("Modulo of a and b is " + (a%b) );
+
+        // *-----UNARY OPERATOR------*
+        // _____PRE-INCREMENT_____
+        // int a = 10;
+        // int b = ++a;
+        // System.out.println(a);
+        // System.out.println(b);
+
+        // _____POST-INCREMENT_____
+        // int c = 10;
+        // int d = c++;
+        // System.out.println(c);
+        // System.out.println(d);
+
+        // _____PRE-DECREMENT_____
+        // int e = 10;
+        // int f = --e;
+        // System.out.println(e);
+        // System.out.println(f);
+
+        // _____POST-DECREMENT_____
+        // int  g = 10;
+        // int  h = g--;
+        // System.out.println(g);
+        // System.out.println(h);
     }
 }
 
