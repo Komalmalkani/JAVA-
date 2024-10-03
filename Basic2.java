@@ -321,6 +321,18 @@ public class Basic2{
         // int  h = g--;
         // System.out.println(g);
         // System.out.println(h);
+
+        // *-----RELATIONAL OPERATOR------*
+        // int a = 10;
+        // int b = 20;
+        // System.out.println((a==b));
+        // System.out.println((a!=b));
+        // System.out.println((a>b));
+        // System.out.println((a>=b));
+        // System.out.println((a<b));
+        // System.out.println((a<=b));
+
+        
     }
 }
 
