@@ -429,6 +429,22 @@ public class Basic2{
             //     System.out.println("C is greater than a and b");
             // }
         
+            // ----PRINT THE LARGEST AMONG THESE 3 NUMBERS ----
+            // int A = 1, B = 2, C = 4;
+            // if ((A>=B)&& (A>=B)) {
+            //     System.out.println("A is greater");
+            // } else if(B>=C) {
+            //     System.out.println("B is greater");
+            // }else{
+            //     System.out.println("C is greater");
+            // }
+
+            // ------TERANARY OPERATOR-----
+            // Variable =  Condition ? statement1 : statement2;
+
+            // int number = 4;
+            // String type = ((number%2==0)?"even":"odd");
+            // System.out.print(type);
 
     }
 }
