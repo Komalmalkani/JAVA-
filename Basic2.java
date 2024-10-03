@@ -446,6 +446,9 @@ public class Basic2{
             // String type = ((number%2==0)?"even":"odd");
             // System.out.print(type);
 
+            // int marks = sc.nextInt();
+            // String condition =( (marks>=33)? "PASS" : "FAIL");
+            // System.out.println(condition);
     }
 }
 
