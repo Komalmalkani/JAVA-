@@ -449,6 +449,69 @@ public class Basic2{
             // int marks = sc.nextInt();
             // String condition =( (marks>=33)? "PASS" : "FAIL");
             // System.out.println(condition);
+
+
+            // -------SWITCH STATEMENTS------------
+            // int number = 3 ; 
+            // switch(number){
+            //     case 1 : System.out.println("burger");
+            //               break;
+            //     case 2 : System.out.println("Sandwich");
+            //               break;
+            //     case 3 : System.out.println("chocolate");
+            //               break;
+            //     case 4 : System.out.println("Ram laddu");
+            //               break;
+            //     case 5 : System.out.println("Momo");
+            //               break;
+
+
+
+        //    char ch = 'e' ; 
+        //     switch(ch){
+        //         case 'a' : System.out.println("burger");
+        //                   break;
+        //         case 'b' : System.out.println("Sandwich");
+        //                   break;
+        //         case 'c' : System.out.println("chocolate");
+        //                   break;
+        //         case 'd' : System.out.println("Ram laddu");
+        //                   break;
+        //         case 'e' : System.out.println("Momo");
+        //                   break;
+            // }
+
+
+
+        // ----------MAKING CALCULATOR USING SWITCH-----------------
+        int a = sc.nextInt();
+        System.out.println(" value of a = "+a);
+        int b = sc.nextInt();
+        System.out.println(" value of b = "+b);
+
+        char operator = sc.next().charAt(0);
+        System.out.println("operator is " + operator);
+
+        switch (operator) {
+            case '+' :
+                System.out.println(a + b);
+                break;
+            case '-' :
+                System.out.println(a - b);
+                break;
+            case '*' :
+                System.out.println(a * b);
+                break;
+            case '/' :
+                System.out.println(a / b);
+                break;
+            case '%' :
+                System.out.println(a % b);
+                break;
+        
+            default:
+                break;
+        }
     }
 }
 
