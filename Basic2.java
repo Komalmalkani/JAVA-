@@ -332,7 +332,23 @@ public class Basic2{
         // System.out.println((a<b));
         // System.out.println((a<=b));
 
-        
+        // *-----LOGICAL OPERATOR------*
+        // ____&&_____
+        // int A = 10;
+        // int B = 10;
+        // System.out.println((A>=B)&&(B<=A));
+
+        // ____||_____
+        // int A = 1;
+        // int B = 10;
+        // int C = 1;
+        // System.out.println((A==B)||(C<=A));
+
+        // ____!_____
+        // int A = 11;
+        // int B = 10;
+        // int C = 1;
+        // System.out.println(!(A==B)&&(C<=A));
     }
 }
 
