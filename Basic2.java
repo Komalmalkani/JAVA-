@@ -543,7 +543,21 @@ public class Basic2 {
         //     //do something
         // }
 
+        // for(int i = 1; i <=10 ; i++){
+        //     System.out.println("Hello World");
+        // }
 
+        // for(int i = 1; i <=4 ; i++){
+        //     System.out.println("****");
+        // }
+
+        // int j = 1;
+        // while( j <= 4){
+        //     System.out.println("****");
+        //     j++;
+        // }
+
+        // Print Reverse of A Number
 
     }
 
