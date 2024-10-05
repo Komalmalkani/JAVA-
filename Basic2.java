@@ -559,6 +559,18 @@ public class Basic2 {
 
         // Print Reverse of A Number
 
+
+        // Definition of Array
+        // list of elements of the same type placed in a contiguous memory location
+       
+        // Operations in Array
+        // Create
+        // Input
+        // Output
+        // Update
+
+        
+
     }
 
 }
