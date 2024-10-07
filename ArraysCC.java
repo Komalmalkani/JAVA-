@@ -16,6 +16,7 @@ public class ArraysCC {
 
          System.out.println("phy:"+marks[0]);
          System.out.println("chem:"+marks[1]);
+         System.out.println("Bio:"+marks[2]);
     }
 }
 
