@@ -13,6 +13,8 @@ public class ArraysCC {
            marks[0] = sc.nextInt();
            marks[1] = sc.nextInt();
            marks[2] = sc.nextInt();
+
+         System.out.println("phy:"+marks[0]);
     }
 }
 
