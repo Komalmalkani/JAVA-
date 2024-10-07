@@ -569,14 +569,14 @@ public class Basic2 {
         // Output
         // Update
 
-        int marks[] = new int[50];
-       marks[0] = sc.nextInt();
-       marks[1] = sc.nextInt();
-       marks[2] = sc.nextInt();
+    //     int marks[] = new int[50];
+    //    marks[0] = sc.nextInt();
+    //    marks[1] = sc.nextInt();
+    //    marks[2] = sc.nextInt();
 
-       System.out.println("phy:"+marks[0]);
-       System.out.println("chem:"+marks[1]);
-       System.out.println("Bio:"+marks[2]);
+    //    System.out.println("phy:"+marks[0]);
+    //    System.out.println("chem:"+marks[1]);
+    //    System.out.println("Bio:"+marks[2]);
 
     }
 
