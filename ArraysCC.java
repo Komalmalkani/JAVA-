@@ -7,9 +7,4 @@
         // Input
         // Output
         // Update
-public class ArraysCC {
-    
-        
-    
-}
 
